@@ -1,0 +1,80 @@
+#home{
+  padding-bottom: 73px;
+}
+.home__container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.home__content {
+  padding-top: 153px;
+  position: relative;
+}
+.home__title {
+  max-width: 457px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125.5%;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.home__text {
+  max-width: 456px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: #8b8e99;
+  margin-bottom: 47px;
+}
+
+.home__input {
+  padding-right: 86px;
+  padding-left: 56px;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.home__form {
+  padding-bottom: 100px;
+}
+
+.input__icon {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 530px;
+  left: 19px;
+  color: #ffffff;
+}
+
+.home__btn{
+  padding: 10px 6px 14px 6px;
+  font-weight: 600;
+font-size: 18px;
+line-height: 125.5%;
+background-color: #3858D6;
+color: #fff;
+border-radius: 9px;
+cursor: pointer;
+position: absolute;
+left: 250px;
+top: 517px;
+}
+
+.home__btn:hover{
+  background-color: transparent;
+  color: #3858D6;
+  transition: 0.5s;
+}
+
+.home__img{
+  max-width: 461px;
+}

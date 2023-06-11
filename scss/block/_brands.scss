@@ -1,0 +1,47 @@
+#brands{
+  padding-bottom: 135px;
+}
+.brands__content {
+  padding: 46px 29px 44px 41px;
+}
+
+.brands__content {
+  display: flex;
+  align-items: center;
+}
+
+.brands__img {
+  max-width: 85px;
+}
+
+.brands__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1e1d1d;
+}
+
+.brand__item {
+  margin-left: 26px;
+}
+
+.brands__text {
+  max-width: 173px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+  margin-top: 9px;
+}
+
+.brands__item {
+  max-width: 354px;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+
+.brands__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}

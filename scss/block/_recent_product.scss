@@ -1,0 +1,149 @@
+#Recent_Products{
+  padding-bottom: 135px;
+}
+.Recent_Products__sentence{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #3858D6;
+text-align: center;
+}
+
+.Recent_Products__title{
+  font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #1E1D1D;
+margin-top: 0;
+margin-bottom: 65px;
+}
+
+.Recent_Products__item{
+  max-width: 334px;
+  overflow: hidden;
+}
+
+.Recent_Products__word{
+  font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #1E1D1D;
+}
+
+.img{
+  padding: 29px 43px 27px 41px;
+}
+
+.Recent_Products__word{
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ margin-top: 11px;
+ margin-bottom: 8px;
+
+}
+
+.Recent_Products__img{
+background: #F6F6F6;
+}
+
+.Recent_Products__img2{
+  max-width: 115px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Recent_Products__cost{
+  font-weight: 500;
+font-size: 20px;
+line-height: 120.5%;
+color: #8B8E99;
+mix-blend-mode: normal;
+}
+
+.Recent_Products__cost2{
+  font-weight: 600;
+font-size: 24px;
+line-height: 120.5%;
+color: #000000;
+}
+
+.recent_product__cont{
+  display: block;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 65px;
+  margin-top: 11px;
+}
+
+.cost3{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+font-weight: 600;
+font-size: 24px;
+line-height: 120.5%;
+color: #000000;
+margin-top: 11px;
+}
+
+.Recent_Products__list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 64px;
+  column-gap: 49px;
+}
+
+.Recent_Products__btn{
+ display: inline-block;
+  padding: 9px 15px 10px 15px;
+  font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+background: #3858D6;
+border-radius: 15px;
+margin-top: 69px;
+margin-right: 430px;
+margin-left: 100px;
+}
+
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 300px;
+}
+
+.Recent_Products__img{
+  position: relative;
+}
+
+.img3{
+  position: absolute;
+  top: 18px;
+  left: 275px;
+}
+
+.Recent_Products__item:hover .img3{
+position: absolute;
+left: 0;
+right: 0;
+transition: 1s;
+}
+
+ .Recent_Products__item:hover .Recent_Products__img{
+   transform: scale(0.8);
+ }
+
+ .contact__img5{
+  max-width: 134px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 42px;
+ }
